@@ -1,0 +1,32 @@
+\section{Samples}
+
+  \subsection{Data samples}
+
+    This analysis uses 2016 pp collision data at $\sqrt{s}$ = 13 TeV, corresponding to an integrated luminosity of 12.9\fbinv. Events are selected from following double-lepton and single-lepton
+    primary data sets:
+
+    \begin{itemize}
+      \item DoubleEG: two electron channel ($ee$)
+      \item DoubleMuon: two muon channel ($\mu\mu$)
+      \item MuonEG: one electron and one muon channel ($e\mu$)
+      \item SingleElectron: backup for $ee$ and $e\mu$ channels
+      \item SingleMuon: backup for $\mu\mu$ and $e\mu$ channels
+    \end{itemize}
+
+    For each of the primary data sets, runs 2016B, 2016C and 2016D are considered:
+    \begin{itemize}
+      \item {\verb /<PD>/Run2016B-PromptReco-v2/MINIAOD } (run 272007-275376)
+      \item {\verb /<PD>/Run2016C-PromptReco-v2/MINIAOD } (run 275657-276283)
+      \item {\verb /<PD>/Run2016D-PromptReco-v2/MINIAOD } (run 276315-276811)
+     %\item {\verb /<PD>/Run2016E-PromptReco-v2/MINIAOD } (run 276831-277420)
+     %\item {\verb /<PD>/Run2016F-PromptReco-v2/MINIAOD } (run 277772-)
+    \end{itemize}
+    and processed using the {\verb Cert_271036-276811_13TeV_PromptReco_Collisions16_JSON } golden JSON file where all CMS subdetectors are flagged as good.
+
+
+  \subsection{Simulation}
+    Background samples have been produced in the Spring16 miniAODv2 campaign and have an average pile-up of $\mu = 20$ and a bunch crossing spacing of 25ns.
+    The backgrounds are listed in Table \ref{samples-backgrounds2016} along with their theoretical cross sections.
+    \input{tables/samples-backgrounds2016.tex}
+    Signal samples are listed in Table \ref{samples-signals2016}.
+    \input{tables/samples-signals2016.tex}
