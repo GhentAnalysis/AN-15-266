@@ -6,7 +6,7 @@
     Leptons are selected according to a set of identification and isolation criteria which are summarized in Table~\ref{leptonSelection} and discussed in the following.
     The leading lepton is required to have a transverse momentum of at least 25 \GeV, while the trailing lepton must exceed 20 \GeV.
     Both leptons must satisfy $-2.4 < \eta < 2.4$. 
-    Events with additional leptons satisfying $p_T> 15$ GeV and with mini-isolation below 0.4 are vetoed.
+    Events with additional leptons satisfying $p_T> 15$ GeV and with relative isolation below 0.4 are vetoed.
 
     \input{tables/leptonSelectionIncludingVeto}
 
@@ -23,6 +23,7 @@
       are required to be less than 0.5\mm and 1\mm respectively. In the same way as for electrons, the $\text{SIP}_\text{3D}$ is required to be less than 4.
 
     \subsubsection{Lepton isolation}
+      Relative isolation smaller than 0.12 within a cone R of 0.3 around the lepton candidate is required for both electrons and muons.
       We apply the very tight (VT) multi-isolation working point to both electrons and muons. The multi-isolation approach was earlier presented in~\citep{CMS_NOTE_2015-133} and is constructed from three observables:
       \begin{itemize}
         \item the mini-isolation $I_\text{mini}$, defined as
@@ -76,7 +77,7 @@
 	\centering
 	\subfloat[electron id]{\includegraphics[width=0.45\textwidth]{figures/scaleFactors/GsfElectronToCutBasedStopsDilepton.pdf}}
 	\subfloat[electron multi-isolation VT]{\includegraphics[width=0.45\textwidth]{figures/scaleFactors/CutBasedTightElectronToMultiIsoVT.pdf}}
-	\caption{Scale factors for the identification and multi-isolation VT working point for electrons}
+	\caption{Scale factors for the identification and multi-isolation VT working point for electrons. Will be updated with final measurements.}
 	\label{fig:SF_e}
       \end{figure}
 
